@@ -23,12 +23,12 @@ This is lib to take a most popular gems on RubyGems
 
   ```
   # Require app.rb to your rb file
-  require_relative 'lib/app'
+  require_relative 'lib/top_gems'
   ```
 
   ```
   # Get an array of objects with top gems on RubyGems
-  TopGems.run(page: amount)
+  TopGems.run(page_count: count)
   ```
 
 ## Rubocop
